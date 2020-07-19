@@ -1,8 +1,8 @@
 import React from 'react';
-import Cites from './Cities'
-import HideText from './HideText'
-import StepTracker from './StepTracker'
-import ListOfThings from './ListOfThings'
+// import Cites from './Cities'
+// import HideText from './HideText'
+// import StepTracker from './StepTracker'
+// import ListOfThings from './ListOfThings'
 import Flipping from './Flipping'
 import './App.css';
 
