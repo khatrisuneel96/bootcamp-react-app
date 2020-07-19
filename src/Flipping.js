@@ -17,9 +17,7 @@ function Flipping () {
             <h1>Hi. It's is {isDay}</h1>
             <h3>Clicked : {count}</h3>
             <button onClick={() => (
-                setCount(count + 1), 
-                setLight(!isLight),
-                setBtn(!btn)
+                setCount(count + 1),setLight(!isLight),setBtn(!btn)
             )}
             >{
                 btn ? "Make Night" : "Make Day"
