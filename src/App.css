@@ -1,23 +1,42 @@
-.box {
-  border: solid;
-  border-width: 50px;
-  border-color: tomato;
-  border-radius: 20%;
-}
-
-.room {
-  text-align: center;
-  height: 300px;
-  margin: auto;
-  padding-top: 12%;
-}
-
-.light {
+.container {
+  max-width: 400px;
+  min-height: 500px;
+  margin: 0 auto;
   background-color: whitesmoke;
-  color: black;
+  box-shadow: 0 0 10px gray;
+  margin-top: 40px;
+  padding: 15px 50px;
 }
 
-.dark {
-  background-color: black;
-  color: whitesmoke;
+.heading {
+  text-align: center;
+}
+
+.exp-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+.trans-list {
+  margin: 0px;
+  padding: 0;
+}
+
+.trans-list > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 8px;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  border-right: 5px solid olivedrab;
+}
+
+.trans-form input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 5px;
 }
